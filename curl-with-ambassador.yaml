@@ -9,3 +9,4 @@ spec:
     command: ["sleep", "9999999"]
   - name: ambassador                        
     image: navkkrnair/kubectl-proxy:ambassador
+    imagePullPolicy: Always
